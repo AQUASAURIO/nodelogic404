@@ -1,0 +1,24 @@
+{
+  "name": "@repo/shared",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./types": "./types/index.ts",
+    "./constants": "./constants/index.ts",
+    "./validators": "./validators/index.ts"
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*",
+    "typescript": "5.9.2",
+    "zod": "^3.24.0"
+  },
+  "dependencies": {
+    "zod": "^3.24.0"
+  }
+}
