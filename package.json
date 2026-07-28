@@ -18,8 +18,7 @@
   },
   "devEngines": {
     "packageManager": {
-      "name": "npm",
-      "version": "10.8.2"
+      "name": "npm"
     }
   },
   "workspaces": [
